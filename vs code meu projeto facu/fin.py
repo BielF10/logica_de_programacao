@@ -4,14 +4,14 @@ def financeiro(gastos):
     print("1 - Adicionar gasto")
     print("2 - Ver gastos")
     
-    opçao = input("Escolha: ")
+    op = input("Escolha: ")
     
-    if opçao == "1":
+    if op == "1":
         nome = input("Nome do gasto: ")
         valor = float(input("Valor: "))
         gastos.append((nome, valor))
         
-    elif opçao == "2":
+    elif op == "2":
         total = 0
         
         for nome, valor in gastos:
