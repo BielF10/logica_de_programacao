@@ -1,4 +1,17 @@
-def calculadora(num1, num2, operacao):
+def somar(a, b):
+    return a + b
+
+def subtrair(a, b):
+    return a - b
+
+def multiplicar(a, b):
+    return a * b
+
+def dividir(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Erro: divisão por zero"def calculadora(num1, num2, operacao):
     if operacao == 'soma':
         return num1 + num2
     elif operacao == 'subtracao':
