@@ -4,7 +4,7 @@ import fin
 gastos = []
 
 while True:
-    print("\n=== MENU ===")
+    print("=== MENU ===")
     print("1 - Calculadora")
     print("2 - Financeiro")
     print("0 - Sair")
