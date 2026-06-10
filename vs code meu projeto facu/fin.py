@@ -1,5 +1,5 @@
 def financeiro(gastos):
-    print("\n--- FINANCEIRO ---")
+    print("--- FINANCEIRO ---")
     
     print("1 - Adicionar gasto")
     print("2 - Ver gastos")
